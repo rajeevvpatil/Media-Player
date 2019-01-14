@@ -1,0 +1,33 @@
+{
+  "name": "file-browser",
+  "author": "David Dombrowsky",
+  "version": "0.2.3",
+  "description": "file-browser allows embedding of a web-enabled file browser in your node site",
+  "keywords": [
+    "filebrowser",
+    "file browser",
+    "file share",
+    "fileshare"
+  ],
+  "bin": {
+    "file-browser": "./index.js"
+  },
+  "homepage": "https://github.com/ddombrowsky/file-browser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddombrowsky/file-browser.git"
+  },
+  "dependencies": {
+    "lodash": "~2.4",
+    "yargs": "8.0.2",
+    "babel-preset-env": "^1.6.1"
+  },
+  "devDependencies": {
+    "express": "^4.16.2"
+  },
+  "main": "file-browser",
+  "bugs": {
+    "url": "https://github.com/ddombrowsky/file-browser/issues"
+  },
+  "license": "MIT"
+}
